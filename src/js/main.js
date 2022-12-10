@@ -10,3 +10,8 @@ $('[data-count="second"]').on('click', () => {
 $('button').eq(2).on('click', () => {
    $('.w-500').fadeToggle(800);
 })
+
+
+
+$().get('https://jsonplaceholder.typicode.com/todos/1')
+   .then(res => console.log(res));
